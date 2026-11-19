@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Dr. Han Healthcare Pvt. Ltd. — Medical Devices Distribution (Red Lite)</title>
 <meta name="description" content="Dr. Han Healthcare Private Limited — medical devices distribution across Chennai, Tamil Nadu and Pondicherry.">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii05NSAtOTUgMTkwIDE5MCI+PGcgZmlsbD0iI0YyNkI2MyI+PGNpcmNsZSBjeD0iLTM4IiBjeT0iLTM4IiByPSI1MiIvPjxjaXJjbGUgY3g9IjM4IiBjeT0iLTM4IiByPSI1MiIvPjxjaXJjbGUgY3g9Ii0zOCIgY3k9IjM4IiByPSI1MiIvPjxjaXJjbGUgY3g9IjM4IiBjeT0iMzgiIHI9IjUyIi8+PGNpcmNsZSByPSI0MCIvPjwvZz48ZyBmaWxsPSIjQzIxNzJDIj48ZWxsaXBzZSByeD0iMTMiIHJ5PSI5MiIvPjxlbGxpcHNlIHJ4PSI5MiIgcnk9IjEzIi8+PC9nPjwvc3ZnPg==">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -399,6 +400,15 @@ form{box-shadow:0 30px 60px rgba(120,20,30,.12)}
   .vchips{display:flex}
   .vpanel{padding:26px}
 }
+
+/* ===== BRAND LOGO ===== */
+.logo-mark{background:none!important;box-shadow:none!important;width:44px;height:44px;border-radius:0}
+.logo-mark svg{width:44px!important;height:44px!important;transition:transform .8s cubic-bezier(.2,.7,.2,1);filter:drop-shadow(0 4px 8px rgba(194,23,44,.25))}
+.logo:hover .logo-mark svg{transform:rotate(90deg) scale(1.08)}
+header .logo span:last-child{color:#A0182E}
+footer .logo span:last-child{color:#fff}
+.logo-mark svg{animation:logoIn 1s cubic-bezier(.2,.7,.2,1) both}
+@keyframes logoIn{from{transform:rotate(-180deg) scale(0);opacity:0}to{transform:none;opacity:1}}
 </style>
 </head>
 <body>
@@ -407,7 +417,7 @@ form{box-shadow:0 30px 60px rgba(120,20,30,.12)}
 <header id="header">
   <div class="container nav">
     <a href="#home" class="logo">
-      <span class="logo-mark"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span>
+      <span class="logo-mark"><svg viewBox="-95 -95 190 190" aria-hidden="true"><g fill="#F26B63"><circle cx="-38" cy="-38" r="52"/><circle cx="38" cy="-38" r="52"/><circle cx="-38" cy="38" r="52"/><circle cx="38" cy="38" r="52"/><circle r="40"/></g><g fill="#C2172C"><ellipse rx="13" ry="92"/><ellipse rx="92" ry="13"/></g></svg></span>
       <span>Dr. Han Healthcare<small>PRIVATE LIMITED</small></span>
     </a>
     <ul class="nav-links" id="navLinks">
@@ -697,7 +707,7 @@ form{box-shadow:0 30px 60px rgba(120,20,30,.12)}
 <footer>
   <div class="container">
     <div class="foot-grid">
-      <div><a class="logo" href="#home"><span class="logo-mark"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span><span>Dr. Han Healthcare<small>PRIVATE LIMITED</small></span></a>
+      <div><a class="logo" href="#home"><span class="logo-mark"><svg viewBox="-95 -95 190 190" aria-hidden="true"><g fill="#F26B63"><circle cx="-38" cy="-38" r="52"/><circle cx="38" cy="-38" r="52"/><circle cx="-38" cy="38" r="52"/><circle cx="38" cy="38" r="52"/><circle r="40"/></g><g fill="#C2172C"><ellipse rx="13" ry="92"/><ellipse rx="92" ry="13"/></g></svg></span><span>Dr. Han Healthcare<small>PRIVATE LIMITED</small></span></a>
       <p style="margin-top:14px;max-width:340px">Medical devices distribution &amp; supply · Chennai, Tamil Nadu</p></div>
       <div><b style="color:#fff">Company</b><p>CIN U24290TN2021PTC147810<br>Incorporated 10 Nov 2021</p></div>
       <div><b style="color:#fff">Serving</b><p>Tamil Nadu · Pondicherry<br>Pan-India growth</p></div>
